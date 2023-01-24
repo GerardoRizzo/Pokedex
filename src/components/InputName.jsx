@@ -18,7 +18,9 @@ const InputName = () => {
 
     return (
         <div>
-            <h1>Input</h1>
+            <h1>¡Hello Trainer!</h1>
+            <br />
+            <p>Give me your name to star</p>
             <input type="text" 
             value={inputValue}
             onChange={e => setInputValue(e.target.value)}
